@@ -1,0 +1,42 @@
+/* Initial */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* FUll In a Div I can change it from div to body */
+body {
+  border: 2px solid skyblue;
+  /* width: 100%; Full width */
+  /* min-height: 100vh; Minimum height of full viewport */
+  min-height: 95vh;
+}
+/* Nav Start */
+.nav {
+  border: 2px solid red;
+  min-height: 200px;
+}
+/* Main Start */
+.main {
+  border: 2px solid blueviolet;
+  min-height: 600px;
+  display: flex;
+  gap: 20px;
+}
+.section-left {
+  border: 2px solid;
+  min-height: 50vh; /* Half the viewport height */
+  /* width: 40%; */
+  flex: 4;
+}
+.section-right {
+  border: 2px solid black;
+  min-height: 50vh;
+  /* width: 60%; */
+  flex: 6; /* 60% */
+}
+/* Footer Start */
+.footer {
+  border: 2px solid peru;
+  min-height: 150px;
+}
