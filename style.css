@@ -4,18 +4,71 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /* FUll In a Div I can change it from div to body */
 body {
   border: 2px solid skyblue;
   /* width: 100%; Full width */
   /* min-height: 100vh; Minimum height of full viewport */
   min-height: 95vh;
+  background-color: #fff;
+  width: 1024px;
+  margin: 0 auto;
 }
+
 /* Nav Start */
 .nav {
-  border: 2px solid red;
-  min-height: 200px;
+  /* border: 2px solid red; */
+  /* min-height: 200px; */
+  background-color: #e2e6ea;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+/* Logo Start */
+.nav-logo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 30px;
+  /* border: 2px solid yellow; */
+  /* margin: 0 40px; */
+}
+
+.nav-logo img {
+  max-height: 60px;
+}
+/* Nav Items */
+.nav-container {
+  flex: 3;
+  /* border: 2px solid rgb(39, 39, 2); */
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid yellow; */
+  list-style: none; /* Removes bullet points */
+  /* gap: 30px; Adds spacing between list items */
+}
+
+.nav-item a {
+  text-decoration: none;
+  background-color: antiquewhite;
+  color: #333;
+  font-size: 18px;
+  padding: 10px 20px;
+  /* transition: color 0.3s ease; */
+  border-radius: 7px;
+}
+.nav-item a:hover {
+  color: #fff;
+  background-color: #333;
+}
+
 /* Main Start */
 .main {
   border: 2px solid blueviolet;
@@ -23,32 +76,39 @@ body {
   display: flex;
   gap: 20px;
 }
+
 /* Section Left Start */
 .section-left {
   border: 2px solid;
-  min-height: 50vh; /* Half the viewport height */
+  min-height: 50vh;
+  /* Half the viewport height */
   /* width: 40%; */
   flex: 4;
 }
+
 /* Timmer Start */
 .timmer {
   border: 2px solid paleturquoise;
   min-height: 200px;
   margin: 10px;
 }
+
 /* Section Right Start */
 .section-right {
   border: 2px solid black;
   min-height: 50vh;
   /* width: 60%; */
-  flex: 6; /* 60% */
+  flex: 6;
+  /* 60% */
 }
+
 /* Content Start */
 .content {
   border: 2px solid salmon;
   min-height: 200px;
   margin: 10px;
 }
+
 /* Footer Start */
 .footer {
   border: 2px solid peru;
