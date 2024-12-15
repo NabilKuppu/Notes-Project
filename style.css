@@ -23,17 +23,31 @@ body {
   display: flex;
   gap: 20px;
 }
+/* Section Left Start */
 .section-left {
   border: 2px solid;
   min-height: 50vh; /* Half the viewport height */
   /* width: 40%; */
   flex: 4;
 }
+/* Timmer Start */
+.timmer {
+  border: 2px solid paleturquoise;
+  min-height: 200px;
+  margin: 10px;
+}
+/* Section Right Start */
 .section-right {
   border: 2px solid black;
   min-height: 50vh;
   /* width: 60%; */
   flex: 6; /* 60% */
+}
+/* Content Start */
+.content {
+  border: 2px solid salmon;
+  min-height: 200px;
+  margin: 10px;
 }
 /* Footer Start */
 .footer {
